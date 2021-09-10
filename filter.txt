@@ -1,0 +1,7 @@
+list1 = [1,2,3,6,5,4,9,8,7]
+def is_greater_5(list1):
+    return list1>5
+val = list(filter(lambda x:x>5,list1))
+print(val)
+
+result = 6    7    8   9
